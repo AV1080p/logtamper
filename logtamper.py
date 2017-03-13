@@ -79,7 +79,7 @@ def saveFile(filename, contents):
   
   
 if __name__ == '__main__':
-    usage = 'usage: logtamper.py -m 2 -u b4dboy -i 192.168.0.188\n \
+    usage = 'usage: logtamper.py -m 2 -u root -i 192.168.0.188\n \
         logtamper.py -m 3 -u root -i 192.168.0.188 -t tty1 -d 2015:05:28:10:11:12'
     parser = OptionParser(usage=usage)
     parser.add_option('-m', '--mode', dest='MODE', default='1' , help='1: utmp, 2: wtmp, 3: lastlog [default: 1]')
